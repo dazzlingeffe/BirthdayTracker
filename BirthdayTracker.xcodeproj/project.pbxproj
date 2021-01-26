@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE567E472580D68200D1F673 /* BirthdaysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE567E462580D68200D1F673 /* BirthdaysTableViewController.swift */; };
 		FEF1ED12257F6BBF00856879 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF1ED11257F6BBF00856879 /* AppDelegate.swift */; };
 		FEF1ED14257F6BBF00856879 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF1ED13257F6BBF00856879 /* SceneDelegate.swift */; };
-		FEF1ED16257F6BBF00856879 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF1ED15257F6BBF00856879 /* ViewController.swift */; };
+		FEF1ED16257F6BBF00856879 /* AddBirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF1ED15257F6BBF00856879 /* AddBirthdayViewController.swift */; };
 		FEF1ED19257F6BBF00856879 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF1ED17257F6BBF00856879 /* Main.storyboard */; };
 		FEF1ED1C257F6BBF00856879 /* BirthdayTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEF1ED1A257F6BBF00856879 /* BirthdayTracker.xcdatamodeld */; };
 		FEF1ED1E257F6BC000856879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF1ED1D257F6BC000856879 /* Assets.xcassets */; };
@@ -17,10 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE567E462580D68200D1F673 /* BirthdaysTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysTableViewController.swift; sourceTree = "<group>"; };
 		FEF1ED0E257F6BBF00856879 /* BirthdayTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdayTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF1ED11257F6BBF00856879 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEF1ED13257F6BBF00856879 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FEF1ED15257F6BBF00856879 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEF1ED15257F6BBF00856879 /* AddBirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBirthdayViewController.swift; sourceTree = "<group>"; };
 		FEF1ED18257F6BBF00856879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FEF1ED1B257F6BBF00856879 /* BirthdayTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BirthdayTracker.xcdatamodel; sourceTree = "<group>"; };
 		FEF1ED1D257F6BC000856879 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,12 +62,13 @@
 			children = (
 				FEF1ED11257F6BBF00856879 /* AppDelegate.swift */,
 				FEF1ED13257F6BBF00856879 /* SceneDelegate.swift */,
-				FEF1ED15257F6BBF00856879 /* ViewController.swift */,
+				FEF1ED15257F6BBF00856879 /* AddBirthdayViewController.swift */,
 				FEF1ED17257F6BBF00856879 /* Main.storyboard */,
 				FEF1ED1D257F6BC000856879 /* Assets.xcassets */,
 				FEF1ED1F257F6BC000856879 /* LaunchScreen.storyboard */,
 				FEF1ED22257F6BC000856879 /* Info.plist */,
 				FEF1ED1A257F6BBF00856879 /* BirthdayTracker.xcdatamodeld */,
+				FE567E462580D68200D1F673 /* BirthdaysTableViewController.swift */,
 			);
 			path = BirthdayTracker;
 			sourceTree = "<group>";
@@ -140,8 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEF1ED16257F6BBF00856879 /* ViewController.swift in Sources */,
+				FEF1ED16257F6BBF00856879 /* AddBirthdayViewController.swift in Sources */,
 				FEF1ED12257F6BBF00856879 /* AppDelegate.swift in Sources */,
+				FE567E472580D68200D1F673 /* BirthdaysTableViewController.swift in Sources */,
 				FEF1ED14257F6BBF00856879 /* SceneDelegate.swift in Sources */,
 				FEF1ED1C257F6BBF00856879 /* BirthdayTracker.xcdatamodeld in Sources */,
 			);
